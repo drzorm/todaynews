@@ -1,0 +1,164 @@
+/* CSS初始化 */
+/*
+html, body { height: 100%; margin: 0; padding: 0; width: 100%; }
+body { padding: 0; margin: 0; font-size: 12px; font-family: "Microsoft YaHei",微软雅黑,\5FAE\8F6F\96C5\9ED1,Arial;}
+a { color: #222; text-decoration: none; }
+a:hover { color: #56a4ea; }
+ul, li, h1, h2, h3, h4, h5, h6, dl, dt, dd, form, input, hr, img, div, label, span, p{ margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 ,h7 ,h8 ,h9 { font-weight: normal;  font-family:"Microsoft YaHei",微软雅黑,"SimSun","Microsoft JhengHei",华文细黑,STHeiti,MingLiu,arial;}
+input { font-size: 12px; }
+address{font-style: normal;}
+ul, li { list-style: none outside none; }
+h4 { font-size: 14px; }
+h5 { font-size: 13px; }
+h6 { font-size: 12px; }
+img { border: 0 none; }
+input { font-family: Arial, Helvetica, sans-serif; }
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#08c;text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word;}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+.dno{display:none;}
+.dbl{display:block;}
+.ahd{cursor:pointer;}
+.tal{text-align:left;}
+.cet{text-align:center;}
+.tar{text-align:right;}
+.abso{position:absolute;}
+.rela2{_position:static!important;*position:static!important;}
+.rela{position:relative;}
+.pfix{position:fixed;}
+.red{color:red;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.wraper{background:#fdfdfd;width:100%;padding-bottom:30px;*position:relative;*z-index:0;position:relative;z-index:999;}
+*/
+/*字体*/
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f18{ font-size:18px;}
+.f24{ font-size:24px;}
+
+/*index*/
+body {
+	font-family: \5FAE\8F6F\96C5\9ED1,Arial, Helvetica;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #4e4e4e;
+	font-size: 16px;
+}
+.indent28{
+	text-indent: 28px;
+}
+#container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#header{
+	width: 100%;
+	height: 260px;
+	background-color: #cc3131;
+}
+#main{
+	width: 100%;
+	height: 380px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+#main .content{
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+#main .left{
+	width: 251px;
+	height: 500px;
+	float: left;
+	margin-top: -170px;
+	background-image: url(../img/TouTiao_phone.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+}
+#main .right{
+	width: 490px;
+	height: 330px;
+	float: right;
+}
+#main .right .r_top{
+	width: 490px;
+	height: 60px;
+	float: right;
+	background-image: url(../img/TouTiao_logo.png);
+	background-repeat: no-repeat;
+	margin-top: -150px;
+}
+#main .right .r_bottom{
+	width: 420px;
+	height: 350px;
+	float: right;
+	background-image: url(../img/TouTiao_mainbg.png);
+	background-repeat: no-repeat;
+	margin-top: -60px;
+	padding:20px 35px;
+	line-height: 28px;
+}
+#main .r_bottom_list ul{
+	width: 195px;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 14px;
+}
+.r_bottom_list ul li{
+	list-style-type: none;
+	font-size: 14px;
+}
+.li_red_text{
+	color:#cc3131;
+	font-weight: bold;
+}
+#main .r_bottom_list a{
+	display: block;
+	width: 126px;
+	height:36px;
+	float: left;
+	list-style: none;
+	margin: 20px 0px;
+}
+.r_bottom_list .link_ios{
+	background-image: url(../img/TouTiao_btn.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.r_bottom_list .link_android{
+	background-image: url(../img/TouTiao_btn.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#footer p{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 0;
+	margin: 0;
+}
